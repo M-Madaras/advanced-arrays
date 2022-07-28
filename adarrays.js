@@ -50,7 +50,7 @@ let teachers = [
 // console.log(justTheNames)
 
 let numbers = [10,20,30]
-
+// returning one value reduce() 
 let totals = numbers.reduce((accumulator,currentValue,index,array) => {
     return accumulator + currentValue
     // 0 is total starting point
@@ -63,3 +63,4 @@ for (let i  = 0; i < numbers.length;i++) {
 total = numbers.reduce((total,currentNumber) => total + currentNumber,0)
 
 console.log(total)
+
